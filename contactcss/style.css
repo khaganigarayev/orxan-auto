@@ -1,0 +1,929 @@
+#header {
+  background-image: url(/photo/1\ \(1\).png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-blend-mode: multiply;
+  background-color: #222127;
+  padding-bottom: 50px;
+  background-position: center center;
+}
+#header .top {
+  padding-top: 17px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+  align-items: center;
+  background: linear-gradient(0deg, rgba(186, 209, 241, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
+}
+#header .top .contact {
+  margin: 0 50px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+#header .top .contact span {
+  color: white;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+#header .top .contact span i {
+  margin-right: 6px;
+}
+#header .top .contact a {
+  color: white;
+  text-decoration: none;
+  transition: 0.6s ease-out;
+}
+#header .top .contact a i {
+  margin-right: 6px;
+}
+#header .top .contact a:hover {
+  color: red;
+}
+#header .top .icon {
+  margin-left: 190px;
+}
+#header .top .icon a {
+  padding-right: 7px;
+  padding-left: 7px;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.5);
+  transition: all 0.3s;
+  text-decoration: none;
+}
+#header .top .icon a:hover {
+  color: #dc2d13;
+}
+#header .bottom-header {
+  margin-top: 3px;
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  text-align: center;
+  justify-content: space-between;
+  display: flex;
+  width: 80%;
+  margin: auto;
+  align-items: center;
+}
+#header .bottom-header .menu {
+  display: block;
+  color: #dc2d13;
+  width: 50%;
+}
+#header .bottom-header .logo {
+  width: 75%;
+  cursor: pointer;
+}
+#header .bottom-header .nav-bar {
+  display: none;
+}
+#header .bottom-header .nav-bar a {
+  position: relative;
+  display: block;
+  padding: 50px 13px 23px;
+  font: 700 12px Raleway;
+  color: #FFF;
+  text-transform: uppercase;
+  transition: all 0.3s ease-out;
+  text-decoration: none;
+  margin: 0;
+}
+#header .bottom-header .nav-bar a:hover {
+  box-shadow: 0 -5px 0 0 #dc2d13;
+}
+#header .bottom-header .nav-bar .searchh .wrapper {
+  text-align: center;
+  margin-top: -20px;
+}
+#header .bottom-header .nav-bar .searchh .search {
+  display: inline-flex;
+  padding: 5px;
+  border-radius: 50px;
+  transition: 0.4s;
+}
+#header .bottom-header .nav-bar .searchh .search:hover {
+  background: rgba(255, 255, 255, 0.15);
+}
+#header .bottom-header .nav-bar .searchh .search:hover input {
+  max-width: 180px;
+}
+#header .bottom-header .nav-bar .searchh .search input {
+  background: transparent;
+  border: 0;
+  max-width: 0;
+  padding: 0;
+  text-indent: 12px;
+  color: #f9f9f9;
+  font-size: 22px;
+  font-family: "Poppins";
+  outline: none;
+  transition: 0.4s;
+}
+#header .bottom-header .nav-bar .searchh .search input::placeholder {
+  color: rgba(255, 255, 255, 0.375);
+}
+#header .bottom-header .nav-bar .searchh .search span {
+  display: grid;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  background: #A43B00;
+  color: #f9f9f9;
+  border-radius: inherit;
+  font-size: 24px;
+  pointer-events: none;
+}
+#header .home .text {
+  width: 100%;
+  text-align: center;
+}
+#header .home .text .ui-title-page {
+  margin-bottom: 30px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 34px;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+}
+#header .home .cross {
+  padding: 8px 15px;
+  margin-bottom: 18px;
+  list-style: none;
+  border-radius: 4px;
+  width: 50%;
+  margin: auto;
+}
+#header .home .cross ul li {
+  font-size: 12px;
+  font-weight: 500;
+  color: #dc2d13;
+}
+#header .home .cross ul .active {
+  color: #fff;
+}
+#header .home .cross ul .active::before {
+  content: "\f0da";
+  padding: 0 9px;
+  color: #fff;
+  font: normal normal normal 14px/1 FontAwesome;
+}
+
+#footer {
+  text-align: center;
+  padding: 70px;
+  width: 100%;
+  background-color: rgba(24, 24, 24, 0.9607843137);
+  height: auto;
+  overflow-x: hidden;
+  background-image: url(/photo/9.jpg);
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#footer .title h2 {
+  margin-top: 10px;
+  margin-bottom: 0;
+  font-family: Raleway;
+  font-size: 30px;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+}
+#footer .title h2 span {
+  color: #dc2d13;
+}
+#footer .location .footer__name {
+  margin-top: 32px;
+  margin-bottom: 10px;
+  padding-right: 4px;
+  padding-left: 5px;
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+#footer .location .footer__text {
+  font-size: 21px;
+  color: #fff;
+  line-height: 1.42857143;
+  font-weight: bold;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+#footer .contact {
+  width: 80%;
+  margin: auto;
+}
+#footer .contact .item {
+  display: inline-block;
+  margin-top: 46px;
+  margin-right: 21px;
+  margin-left: 21px;
+}
+#footer .contact .item .footer__name {
+  margin-top: 32px;
+  margin-bottom: 10px;
+  padding-right: 1px;
+  padding-left: 2px;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.774);
+  letter-spacing: 0.1em;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-transform: uppercase;
+}
+#footer .contact .item .footer__text {
+  font-size: 16px;
+  color: #fff;
+  line-height: 1.42857143;
+  font-weight: bold;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+#footer .icon {
+  margin-top: 58px;
+}
+#footer .icon ul li {
+  display: inline-block;
+  padding: 0 10px;
+}
+#footer .icon ul li a {
+  width: 70px;
+  height: 70px;
+  padding: 4px 8px;
+  font-size: 20px;
+  color: #999;
+  border: 2px solid #999;
+  border-radius: 50%;
+  background-color: #222127;
+  opacity: 0.5;
+  transition: all 0.3s;
+}
+#footer .icon ul li a:hover {
+  opacity: 1;
+}
+#footer .wrapbutton {
+  position: relative;
+}
+#footer .wrapbutton .scroll {
+  position: relative;
+  top: 70px;
+  left: 0px;
+  font-size: 19px;
+  color: red;
+  text-transform: uppercase;
+  text-decoration: none !important;
+  transition: 0.8s ease-in-out;
+}
+#footer .wrapbutton .scroll:hover {
+  color: #999;
+}
+#footer .wrapbutton .scroll::before {
+  top: -38px;
+  left: -8px;
+  border-right: 25px solid transparent;
+  border-bottom: 33px solid red;
+  border-left: 25px solid transparent;
+  z-index: 15;
+  position: absolute;
+  content: "";
+}
+#footer .wrapbutton .scroll::after {
+  position: absolute;
+  content: "";
+  top: -23px;
+  left: 8px;
+  border-right: 9px solid transparent;
+  border-bottom: 10px solid #eee;
+  border-left: 9px solid transparent;
+  z-index: 15;
+}
+
+@media (min-width: 768px) {
+  #header {
+    background-image: url(/photo/1\ \(1\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-blend-mode: multiply;
+    background-color: #222127;
+  }
+  #header .top {
+    padding-top: 17px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+    display: flex;
+    justify-content: space-around;
+    background: linear-gradient(0deg, rgba(186, 209, 241, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
+  }
+  #header .top .contact {
+    width: 50%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+  #header .top .contact span {
+    color: white;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  #header .top .contact span i {
+    margin-right: 6px;
+  }
+  #header .top .contact a {
+    color: white;
+    text-decoration: none;
+    transition: 0.6s ease-out;
+  }
+  #header .top .contact a i {
+    margin-right: 6px;
+  }
+  #header .top .contact a:hover {
+    color: red;
+  }
+  #header .top .icon {
+    width: 20%;
+    margin-left: 200px;
+  }
+  #header .top .icon a {
+    padding-right: 7px;
+    padding-left: 7px;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+    transition: all 0.3s;
+    text-decoration: none;
+  }
+  #header .top .icon a:hover {
+    color: #dc2d13;
+  }
+  #header .bottom-header {
+    margin-top: 3px;
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+    text-align: center;
+    justify-content: space-between;
+    display: flex;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+  }
+  #header .bottom-header .menu {
+    display: none;
+  }
+  #header .bottom-header .logo {
+    width: 25%;
+  }
+  #header .bottom-header .nav-bar {
+    display: flex;
+  }
+  #header .bottom-header .nav-bar a {
+    position: relative;
+    display: block;
+    padding: 50px 13px 23px;
+    font: 700 12px Raleway;
+    color: #FFF;
+    text-transform: uppercase;
+    transition: all 0.3s ease-out;
+    text-decoration: none;
+    margin: 0;
+  }
+  #header .bottom-header .nav-bar a:hover {
+    box-shadow: 0 -5px 0 0 #dc2d13;
+  }
+  #header .bottom-header .nav-bar .searchh .wrapper {
+    text-align: center;
+    margin-top: -20px;
+  }
+  #header .bottom-header .nav-bar .searchh .search {
+    display: inline-flex;
+    padding: 5px;
+    border-radius: 50px;
+    transition: 0.4s;
+  }
+  #header .bottom-header .nav-bar .searchh .search:hover {
+    background: rgba(255, 255, 255, 0.15);
+  }
+  #header .bottom-header .nav-bar .searchh .search:hover input {
+    max-width: 180px;
+  }
+  #header .bottom-header .nav-bar .searchh .search input {
+    background: transparent;
+    border: 0;
+    max-width: 0;
+    padding: 0;
+    text-indent: 12px;
+    color: #f9f9f9;
+    font-size: 22px;
+    font-family: "Poppins";
+    outline: none;
+    transition: 0.4s;
+  }
+  #header .bottom-header .nav-bar .searchh .search input::placeholder {
+    color: rgba(255, 255, 255, 0.375);
+  }
+  #header .bottom-header .nav-bar .searchh .search span {
+    display: grid;
+    place-items: center;
+    width: 40px;
+    height: 40px;
+    background: #A43B00;
+    color: #f9f9f9;
+    border-radius: inherit;
+    font-size: 24px;
+    pointer-events: none;
+  }
+  #header .home .text {
+    width: 100%;
+  }
+  #header .home .text .ui-title-page {
+    margin-bottom: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 34px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    margin-right: 30px;
+  }
+  #header .home .cross {
+    padding: 8px 15px;
+    margin-bottom: 18px;
+    list-style: none;
+    border-radius: 4px;
+  }
+  #header .home .cross ul li {
+    font-size: 12px;
+    font-weight: 500;
+    color: #dc2d13;
+  }
+  #header .home .cross ul .active {
+    color: #fff;
+  }
+  #header .home .cross ul .active::before {
+    content: "\f0da";
+    padding: 0 9px;
+    color: #fff;
+    font: normal normal normal 14px/1 FontAwesome;
+  }
+  #footer {
+    text-align: center;
+    padding: 70px;
+    width: 100%;
+    background-color: rgba(24, 24, 24, 0.9607843137);
+    height: auto;
+    overflow-x: hidden;
+    background-image: url(/photo/9.jpg);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+  }
+  #footer .title h2 {
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-family: Raleway;
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+  }
+  #footer .title h2 span {
+    color: #dc2d13;
+  }
+  #footer .location .footer__name {
+    margin-top: 32px;
+    margin-bottom: 10px;
+    padding-right: 4px;
+    padding-left: 5px;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+  #footer .location .footer__text {
+    font-size: 21px;
+    color: #fff;
+    line-height: 1.42857143;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+  #footer .contact {
+    width: 80%;
+    margin: auto;
+  }
+  #footer .contact .item {
+    display: inline-block;
+    margin-top: 46px;
+    margin-right: 21px;
+    margin-left: 21px;
+  }
+  #footer .contact .item .footer__name {
+    margin-top: 32px;
+    margin-bottom: 10px;
+    padding-right: 1px;
+    padding-left: 2px;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.774);
+    letter-spacing: 0.1em;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    text-transform: uppercase;
+  }
+  #footer .contact .item .footer__text {
+    font-size: 16px;
+    color: #fff;
+    line-height: 1.42857143;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+  #footer .icon {
+    margin-top: 58px;
+  }
+  #footer .icon ul li {
+    display: inline-block;
+    padding: 0 10px;
+  }
+  #footer .icon ul li a {
+    width: 70px;
+    height: 70px;
+    padding: 4px 8px;
+    font-size: 20px;
+    color: #999;
+    border: 2px solid #999;
+    border-radius: 50%;
+    background-color: #222127;
+    opacity: 0.5;
+    transition: all 0.3s;
+  }
+  #footer .icon ul li a:hover {
+    opacity: 1;
+  }
+  #footer .wrapbutton {
+    position: relative;
+  }
+  #footer .wrapbutton .scroll {
+    position: relative;
+    top: 70px;
+    left: 0px;
+    font-size: 19px;
+    color: red;
+    text-transform: uppercase;
+    text-decoration: none !important;
+    transition: 0.8s ease-in-out;
+  }
+  #footer .wrapbutton .scroll:hover {
+    color: #999;
+  }
+  #footer .wrapbutton .scroll::before {
+    top: -38px;
+    left: -8px;
+    border-right: 25px solid transparent;
+    border-bottom: 33px solid red;
+    border-left: 25px solid transparent;
+    z-index: 15;
+    position: absolute;
+    content: "";
+  }
+  #footer .wrapbutton .scroll::after {
+    position: absolute;
+    content: "";
+    top: -23px;
+    left: 8px;
+    border-right: 9px solid transparent;
+    border-bottom: 10px solid #eee;
+    border-left: 9px solid transparent;
+    z-index: 15;
+  }
+}
+@media (min-width: 768px) {
+  #contact {
+    width: 100%;
+  }
+  #contact .headtext {
+    width: 80%;
+    margin: auto;
+  }
+  #contact .headtext h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #222;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    margin-top: 38px;
+    margin-bottom: 9px;
+  }
+  #contact .headtext div {
+    font-size: 17px;
+    font-weight: 300;
+    color: #777;
+    margin-bottom: 13px;
+  }
+  #contact .map {
+    width: 100%;
+  }
+  #contact .buttons {
+    margin-top: 40px;
+  }
+  #contact .buttons .buttontext .decor {
+    position: relative;
+    display: inline-block;
+  }
+  #contact .buttons .buttontext .decor::before {
+    background-color: #dc2d13;
+    right: -10px;
+    position: absolute;
+    top: 5px;
+    display: block;
+    width: 14px;
+    height: 14px;
+    content: "";
+    z-index: 3;
+    transform: rotate(45deg);
+  }
+  #contact .buttons .buttontext .decor::after {
+    background-color: #dc2d13;
+    left: -10px;
+    position: absolute;
+    top: 5px;
+    display: block;
+    width: 14px;
+    height: 14px;
+    content: "";
+    transform: rotate(45deg);
+  }
+  #contact .buttons .buttontext .decor i {
+    display: inline-block;
+    width: 23px;
+    height: 23px;
+    font-size: 12px;
+    line-height: 1;
+    color: #555;
+    border: 3px solid #f5f5f5;
+    border-radius: 3px;
+    background-color: #ddd;
+    z-index: 5;
+    transform: rotate(45deg);
+    position: relative;
+  }
+  #contact .buttons .buttontext .decor i::before {
+    display: block;
+    margin: 3px 0 0 1px;
+    transform: rotate(-45deg);
+    content: "\f0d7";
+  }
+  #contact .buttons .buttontext h2 {
+    margin-top: 43px;
+    margin-bottom: 25px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #222;
+    text-transform: uppercase;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  #contact .buttons .button {
+    width: 80%;
+    margin-left: 8.33333333%;
+  }
+  #contact .buttons .button .imput .form-control {
+    display: block;
+    width: 100%;
+    height: 52px;
+    font-size: 12px;
+    line-height: 1.42857143;
+    color: #999;
+    background-color: #ffffff;
+    background-image: none;
+    -o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+    border: none;
+    margin-bottom: 18px;
+    border-bottom: 1px solid transparent;
+    -webkit-transition: border-color ease-in-out 0.15s, -webkit-box-shadow ease-in-out 0.15s;
+    padding: 20px;
+  }
+  #contact .buttons .button .fullinput {
+    width: 100%;
+    position: relative;
+    padding: 20px;
+  }
+  #contact .buttons .button .fullinput .mesagedetails {
+    display: block;
+    width: 100%;
+    height: 300px;
+    font-size: 12px;
+    line-height: 1.42857143;
+    color: #999;
+    background-color: #ffffff;
+    background-image: none;
+    -o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+    border: none;
+    margin-bottom: 18px;
+    border-bottom: 1px solid transparent;
+    -webkit-transition: border-color ease-in-out 0.15s, -webkit-box-shadow ease-in-out 0.15s;
+  }
+  #contact .buttons .button .sendd {
+    width: 160px;
+    margin-top: 42px;
+    padding-left: 12px;
+    padding-right: 12px;
+    overflow: hidden;
+  }
+  #contact .buttons .button .sendd:hover {
+    color: #333333;
+    text-decoration: none;
+  }
+  #contact .buttons .button .sendd button {
+    background-color: #dc2d13;
+    margin-left: -20px;
+    padding: 15px 29px 14px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #fff;
+    border: none;
+    box-shadow: 5px 0 0 0 #555;
+    transform: skewX(18deg);
+    text-transform: uppercase;
+  }
+  #contact .buttons .button .sendd button::after {
+    background-color: #222;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 120%;
+    height: 50%;
+    opacity: 0;
+    z-index: -1;
+    content: "";
+    transition: all 0.3s ease 0s;
+    transform: translateX(-50%) translateY(-50%) rotate(45deg);
+  }
+  #contact .buttons .button .sendd button span {
+    display: block;
+    transform: skewX(-18deg);
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    color: #fff;
+  }
+}
+#contact {
+  width: 100%;
+}
+#contact .headtext {
+  width: 80%;
+  margin: auto;
+}
+#contact .headtext h2 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #222;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin-top: 38px;
+  margin-bottom: 9px;
+}
+#contact .headtext div {
+  font-size: 17px;
+  font-weight: 300;
+  color: #777;
+  margin-bottom: 13px;
+}
+#contact .map {
+  width: 100%;
+}
+#contact .buttons {
+  margin-top: 40px;
+}
+#contact .buttons .buttontext .decor {
+  position: relative;
+  display: inline-block;
+}
+#contact .buttons .buttontext .decor::before {
+  background-color: #dc2d13;
+  right: -10px;
+  position: absolute;
+  top: 5px;
+  display: block;
+  width: 14px;
+  height: 14px;
+  content: "";
+  z-index: 3;
+  transform: rotate(45deg);
+}
+#contact .buttons .buttontext .decor::after {
+  background-color: #dc2d13;
+  left: -10px;
+  position: absolute;
+  top: 5px;
+  display: block;
+  width: 14px;
+  height: 14px;
+  content: "";
+  transform: rotate(45deg);
+}
+#contact .buttons .buttontext .decor i {
+  display: inline-block;
+  width: 23px;
+  height: 23px;
+  font-size: 12px;
+  line-height: 1;
+  color: #555;
+  border: 3px solid #f5f5f5;
+  border-radius: 3px;
+  background-color: #ddd;
+  z-index: 5;
+  transform: rotate(45deg);
+  position: relative;
+}
+#contact .buttons .buttontext .decor i::before {
+  display: block;
+  margin: 3px 0 0 1px;
+  transform: rotate(-45deg);
+  content: "\f0d7";
+}
+#contact .buttons .buttontext h2 {
+  margin-top: 43px;
+  margin-bottom: 25px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #222;
+  text-transform: uppercase;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+#contact .buttons .button {
+  width: 80%;
+  margin-left: 8.33333333%;
+}
+#contact .buttons .button .imput .form-control {
+  display: block;
+  width: 100%;
+  height: 52px;
+  font-size: 12px;
+  line-height: 1.42857143;
+  color: #999;
+  background-color: #ffffff;
+  background-image: none;
+  -o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  border: none;
+  margin-bottom: 18px;
+  border-bottom: 1px solid transparent;
+  -webkit-transition: border-color ease-in-out 0.15s, -webkit-box-shadow ease-in-out 0.15s;
+  padding: 20px;
+}
+#contact .buttons .button .fullinput {
+  width: 100%;
+  position: relative;
+  padding: 20px;
+}
+#contact .buttons .button .fullinput .mesagedetails {
+  display: block;
+  width: 100%;
+  height: 300px;
+  font-size: 12px;
+  line-height: 1.42857143;
+  color: #999;
+  background-color: #ffffff;
+  background-image: none;
+  -o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  border: none;
+  margin-bottom: 18px;
+  border-bottom: 1px solid transparent;
+  -webkit-transition: border-color ease-in-out 0.15s, -webkit-box-shadow ease-in-out 0.15s;
+}
+#contact .buttons .button .sendd {
+  width: 160px;
+  margin-top: 42px;
+  padding-left: 12px;
+  padding-right: 12px;
+  overflow: hidden;
+}
+#contact .buttons .button .sendd:hover {
+  color: #333333;
+  text-decoration: none;
+}
+#contact .buttons .button .sendd button {
+  background-color: #dc2d13;
+  margin-left: -20px;
+  padding: 15px 29px 14px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #fff;
+  border: none;
+  box-shadow: 5px 0 0 0 #555;
+  transform: skewX(18deg);
+  text-transform: uppercase;
+}
+#contact .buttons .button .sendd button::after {
+  background-color: #222;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 120%;
+  height: 50%;
+  opacity: 0;
+  z-index: -1;
+  content: "";
+  transition: all 0.3s ease 0s;
+  transform: translateX(-50%) translateY(-50%) rotate(45deg);
+}
+#contact .buttons .button .sendd button span {
+  display: block;
+  transform: skewX(-18deg);
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 700;
+  color: #fff;
+}/*# sourceMappingURL=style.css.map */

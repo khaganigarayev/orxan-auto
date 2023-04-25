@@ -1,0 +1,362 @@
+ body {
+     scroll-behavior: smooth;
+ }
+
+
+ #welcome {
+     position: relative;
+     background-color: #181818;
+     width: 100%;
+     height: 100%;
+
+
+    overflow: hidden;
+     background-image: url(/photo/6.jpg);
+     background-blend-mode: multiply;
+     background-repeat: no-repeat;
+     background-position: center center;
+     background-size: cover;
+
+
+
+     .gallery {
+         width: 100%;
+
+         &::before {
+             background-color: #dc2d13;
+             position: absolute;
+             top: -16px;
+             width: 170px;
+             height: 80px;
+             content: '';
+             left: -70px;
+             box-shadow: 4px 1px 0 2px #f5f5f5;
+             transform: skew(-58deg, 10deg);
+         }
+
+         &::after {
+             right: -70px;
+             box-shadow: -4px 1px 0 2px #f5f5f5;
+             transform: skew(58deg, -10deg);
+             position: absolute;
+             top: -16px;
+             width: 170px;
+             height: 80px;
+             content: '';
+             overflow: hidden;
+             background-color: #dc2d13;
+
+
+
+         }
+
+         .headtext {
+             padding-top: 30px;
+
+             h2 {
+                 color: #fff;
+                 font-family: Raleway;
+                 font-size: 40px;
+                 font-weight: 700;
+                 text-align: center;
+                 margin-top: 68px;
+                 margin-bottom: 9px;
+             }
+
+             p {
+                 font-size: 16px;
+                 font-weight: 400;
+                 color: rgba(255, 255, 255, 0.7);
+                 text-align: center;
+                 letter-spacing: 0.1em;
+                 text-transform: uppercase;
+
+                 :hover {
+                     color: red;
+           
+                 }
+             }
+
+         }
+
+         .cars {
+                 width: 80%;
+                 margin: auto;
+
+                 .card {
+                    position: relative;
+                   width: 100%;
+                    height: 480px;
+                    background: #191919;
+                    border-radius: 20px;
+                    overflow: hidden;
+                  }
+                  .card::before {
+                    content: "";
+                    position: absolute;
+                    top: -50%;
+                    width: 100%;
+                    height: 100%;
+                   background: #dc2d13;
+                    transform: skewY(345deg);
+                    transition: 0.5s;
+                  }
+                  .card:hover::before {
+                    top: -70%;
+                    transform: skewY(390deg);
+                  }
+                  .card::after {
+                    content: "Benz";
+                  
+                    position: absolute;
+                    bottom: 0;
+                    left: 20%;
+                    font-weight: 600;
+                    font-size: 6em;
+                    color: rgba(0, 0, 0, 0.1);
+                  }
+                  .card .imgBox {
+                    position: relative;
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding-top: 20px;
+                    z-index: 1;
+                  }
+                  .card .contentBox {
+                    position: relative;
+                    padding: 20px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                    z-index: 2;
+                  }
+                  .card .contentBox h3 {
+                    font-size: 18px;
+                    color: white;
+                    font-weight: 500;
+                    text-transform: uppercase;
+                    letter-spacing: 1px;
+                  }
+                  .card .contentBox .price {
+                    font-size: 24px;
+                    color: white;
+                    font-weight: 700;
+                    letter-spacing: 1px;
+                  }
+                  .card .contentBox .buy {
+                    position: relative;
+                    top: 100px;
+                    opacity: 0;
+                    padding: 10px 30px;
+                    margin-top: 15px;
+                    color: #000000;
+                    text-decoration: none;
+                   background: #dc2d13;
+                    border-radius: 30px;
+                    text-transform: uppercase;
+                    letter-spacing: 1px;
+                    transition: 0.5s;
+                  }
+                  .card:hover .contentBox .buy {
+                    top: 0;
+                    opacity: 1;
+                  }
+                  .mouse {
+                    height: 300px;
+                    width: auto;
+                  }
+
+                
+
+
+             }
+     }
+ }
+
+ @media (min-width: 576px) {}
+
+
+ @media (min-width: 768px) {
+     #welcome {
+         position: relative;
+         background-color: #181818;
+         width: 100%;
+         height: 100vh;
+         overflow-x: hidden;
+         background-image: url(/photo/6.jpg);
+         background-blend-mode: multiply;
+         background-repeat: no-repeat;
+         background-position: center center;
+         background-size: cover;
+
+
+
+         .gallery {
+             width: 100%;
+
+             &::before {
+                 background-color: #dc2d13;
+                 position: absolute;
+                 top: -16px;
+                 width: 170px;
+                 height: 80px;
+                 content: '';
+                 left: -70px;
+                 box-shadow: 4px 1px 0 2px #f5f5f5;
+                 transform: skew(-58deg, 10deg);
+             }
+
+             &::after {
+                 right: -70px;
+                 box-shadow: -4px 1px 0 2px #f5f5f5;
+                 transform: skew(58deg, -10deg);
+                 position: absolute;
+                 top: -16px;
+                 width: 170px;
+                 height: 80px;
+                 content: '';
+                 overflow: hidden;
+                 background-color: #dc2d13;
+
+
+
+             }
+
+             .headtext {
+                 padding-top: 30px;
+
+                 h2 {
+                     color: #fff;
+                     font-family: Raleway;
+                     font-size: 40px;
+                     font-weight: 700;
+                     text-align: center;
+                     margin-top: 68px;
+                     margin-bottom: 9px;
+                 }
+
+                 p {
+                     font-size: 16px;
+                     font-weight: 400;
+                     color: rgba(255, 255, 255, 0.7);
+                     text-align: center;
+                     letter-spacing: 0.1em;
+                     text-transform: uppercase;
+
+                     :hover {
+                         color: red;
+                     }
+                 }
+
+             }
+
+             .cars {
+                 width: 80%;
+                 margin: auto;
+
+                 .card {
+                    position: relative;
+                   width: 33%;
+                    height: 480px;
+                    background: #191919;
+                    border-radius: 20px;
+                    overflow: hidden;
+                  }
+                  .card::before {
+                    content: "";
+                    position: absolute;
+                    top: -50%;
+                    width: 100%;
+                    height: 100%;
+                   background: #dc2d13;
+                    transform: skewY(345deg);
+                    transition: 0.5s;
+                  }
+                  .card:hover::before {
+                    top: -70%;
+                    transform: skewY(390deg);
+                  }
+                  .card::after {
+                    content: "Benz";
+                  
+                    position: absolute;
+                    bottom: 0;
+                    left: 20%;
+                    font-weight: 600;
+                    font-size: 6em;
+                    color: rgba(0, 0, 0, 0.1);
+                  }
+                  .card .imgBox {
+                    position: relative;
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding-top: 20px;
+                    z-index: 1;
+                  }
+                  .card .contentBox {
+                    position: relative;
+                    padding: 20px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                    z-index: 2;
+                  }
+                  .card .contentBox h3 {
+                    font-size: 18px;
+                    color: white;
+                    font-weight: 500;
+                    text-transform: uppercase;
+                    letter-spacing: 1px;
+                  }
+                  .card .contentBox .price {
+                    font-size: 24px;
+                    color: white;
+                    font-weight: 700;
+                    letter-spacing: 1px;
+                  }
+                  .card .contentBox .buy {
+                    position: relative;
+                    top: 100px;
+                    opacity: 0;
+                    padding: 10px 30px;
+                    margin-top: 15px;
+                    color: #000000;
+                    text-decoration: none;
+                   background: #dc2d13;
+                    border-radius: 30px;
+                    text-transform: uppercase;
+                    letter-spacing: 1px;
+                    transition: 0.5s;
+                  }
+                  .card:hover .contentBox .buy {
+                    top: 0;
+                    opacity: 1;
+                  }
+                  .mouse {
+                    height: 300px;
+                    width: auto;
+                  }
+
+                
+
+
+             }
+         }
+     }
+
+ }
+
+ // Large devices (desktops, 992px and up)
+ @media (min-width: 992px) {}
+
+ // X-Large devices (large desktops, 1200px and up)
+ @media (min-width: 1200px) {}
+
+ // XX-Large devices (larger desktops, 1400px and up)
+ @media (min-width: 1400px) {}

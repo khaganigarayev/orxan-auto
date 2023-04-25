@@ -1,0 +1,912 @@
+#footer {
+  text-align: center;
+  padding: 70px;
+  width: 100%;
+  background-color: rgba(24, 24, 24, 0.9607843137);
+  height: auto;
+  overflow-x: hidden;
+  background-image: url(/photo/9.jpg);
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#footer .title h2 {
+  margin-top: 10px;
+  margin-bottom: 0;
+  font-family: Raleway;
+  font-size: 30px;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+}
+#footer .title h2 span {
+  color: #dc2d13;
+}
+#footer .location .footer__name {
+  margin-top: 32px;
+  margin-bottom: 10px;
+  padding-right: 4px;
+  padding-left: 5px;
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+#footer .location .footer__text {
+  font-size: 21px;
+  color: #fff;
+  line-height: 1.42857143;
+  font-weight: bold;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+#footer .contact {
+  width: 80%;
+  margin: auto;
+}
+#footer .contact .item {
+  display: inline-block;
+  margin-top: 46px;
+  margin-right: 21px;
+  margin-left: 21px;
+}
+#footer .contact .item .footer__name {
+  margin-top: 32px;
+  margin-bottom: 10px;
+  padding-right: 1px;
+  padding-left: 2px;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.774);
+  letter-spacing: 0.1em;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-transform: uppercase;
+}
+#footer .contact .item .footer__text {
+  font-size: 16px;
+  color: #fff;
+  line-height: 1.42857143;
+  font-weight: bold;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+#footer .icon {
+  margin-top: 58px;
+}
+#footer .icon ul li {
+  display: inline-block;
+  padding: 0 10px;
+}
+#footer .icon ul li a {
+  width: 70px;
+  height: 70px;
+  padding: 4px 8px;
+  font-size: 20px;
+  color: #999;
+  border: 2px solid #999;
+  border-radius: 50%;
+  background-color: #222127;
+  opacity: 0.5;
+  transition: all 0.3s;
+}
+#footer .icon ul li a:hover {
+  opacity: 1;
+}
+#footer .wrapbutton {
+  position: relative;
+}
+#footer .wrapbutton .scroll {
+  position: relative;
+  top: 70px;
+  left: 0px;
+  font-size: 19px;
+  color: red;
+  text-transform: uppercase;
+  text-decoration: none !important;
+  transition: 0.8s ease-in-out;
+}
+#footer .wrapbutton .scroll:hover {
+  color: #999;
+}
+#footer .wrapbutton .scroll::before {
+  top: -38px;
+  left: -8px;
+  border-right: 25px solid transparent;
+  border-bottom: 33px solid red;
+  border-left: 25px solid transparent;
+  z-index: 15;
+  position: absolute;
+  content: "";
+}
+#footer .wrapbutton .scroll::after {
+  position: absolute;
+  content: "";
+  top: -23px;
+  left: 8px;
+  border-right: 9px solid transparent;
+  border-bottom: 10px solid #eee;
+  border-left: 9px solid transparent;
+  z-index: 15;
+}
+
+#header {
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  height: auto;
+  padding-top: 15px;
+}
+#header .bottom_header {
+  align-items: center;
+  justify-content: space-between;
+}
+#header .bottom_header .nav-bar {
+  display: none;
+}
+#header .bottom_header .menu {
+  color: #dc2d13;
+  cursor: pointer;
+}
+#header .bottom_header .logo {
+  width: 40%;
+}
+
+@media (min-width: 768px) {
+  #footer {
+    text-align: center;
+    padding: 70px;
+    width: 100%;
+    background-color: rgba(24, 24, 24, 0.9607843137);
+    height: auto;
+    overflow-x: hidden;
+    background-image: url(/photo/9.jpg);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+  }
+  #footer .title h2 {
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-family: Raleway;
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+  }
+  #footer .title h2 span {
+    color: #dc2d13;
+  }
+  #footer .location .footer__name {
+    margin-top: 32px;
+    margin-bottom: 10px;
+    padding-right: 4px;
+    padding-left: 5px;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+  #footer .location .footer__text {
+    font-size: 21px;
+    color: #fff;
+    line-height: 1.42857143;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+  #footer .contact {
+    width: 80%;
+    margin: auto;
+  }
+  #footer .contact .item {
+    display: inline-block;
+    margin-top: 46px;
+    margin-right: 21px;
+    margin-left: 21px;
+  }
+  #footer .contact .item .footer__name {
+    margin-top: 32px;
+    margin-bottom: 10px;
+    padding-right: 1px;
+    padding-left: 2px;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.774);
+    letter-spacing: 0.1em;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    text-transform: uppercase;
+  }
+  #footer .contact .item .footer__text {
+    font-size: 16px;
+    color: #fff;
+    line-height: 1.42857143;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+  #footer .icon {
+    margin-top: 58px;
+  }
+  #footer .icon ul li {
+    display: inline-block;
+    padding: 0 10px;
+  }
+  #footer .icon ul li a {
+    width: 70px;
+    height: 70px;
+    padding: 4px 8px;
+    font-size: 20px;
+    color: #999;
+    border: 2px solid #999;
+    border-radius: 50%;
+    background-color: #222127;
+    opacity: 0.5;
+    transition: all 0.3s;
+  }
+  #footer .icon ul li a:hover {
+    opacity: 1;
+  }
+  #footer .wrapbutton {
+    position: relative;
+  }
+  #footer .wrapbutton .scroll {
+    position: relative;
+    top: 70px;
+    left: 0px;
+    font-size: 19px;
+    color: red;
+    text-transform: uppercase;
+    text-decoration: none !important;
+    transition: 0.8s ease-in-out;
+  }
+  #footer .wrapbutton .scroll:hover {
+    color: #999;
+  }
+  #footer .wrapbutton .scroll::before {
+    top: -38px;
+    left: -8px;
+    border-right: 25px solid transparent;
+    border-bottom: 33px solid red;
+    border-left: 25px solid transparent;
+    z-index: 15;
+    position: absolute;
+    content: "";
+  }
+  #footer .wrapbutton .scroll::after {
+    position: absolute;
+    content: "";
+    top: -23px;
+    left: 8px;
+    border-right: 9px solid transparent;
+    border-bottom: 10px solid #eee;
+    border-left: 9px solid transparent;
+    z-index: 15;
+  }
+  #header {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding-top: 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+  }
+  #header .bottom_header {
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+  }
+  #header .bottom_header .nav-bar {
+    display: block;
+  }
+  #header .bottom_header .nav-bar a {
+    position: relative;
+    display: block;
+    padding: 50px 13px 10px;
+    margin: 30px 0;
+    font: 700 12px Raleway;
+    color: #FFF;
+    transition: all 0.3s ease-out;
+    text-decoration: none;
+    margin: 0;
+  }
+  #header .bottom_header .nav-bar a:hover {
+    box-shadow: 0 -5px 0 0 #dc2d13;
+  }
+  #header .bottom_header .nav-bar .searchh .wrapper {
+    text-align: center;
+    margin-top: -20px;
+  }
+  #header .bottom_header .nav-bar .searchh .search {
+    display: inline-flex;
+    padding: 5px;
+    border-radius: 50px;
+    transition: 0.4s;
+  }
+  #header .bottom_header .nav-bar .searchh .search:hover {
+    background: rgba(255, 255, 255, 0.15);
+  }
+  #header .bottom_header .nav-bar .searchh .search:hover input {
+    max-width: 180px;
+  }
+  #header .bottom_header .nav-bar .searchh .search input {
+    background: transparent;
+    border: 0;
+    max-width: 0;
+    padding: 0;
+    text-indent: 12px;
+    color: #f9f9f9;
+    font-size: 22px;
+    font-family: "Poppins";
+    outline: none;
+    transition: 0.4s;
+  }
+  #header .bottom_header .nav-bar .searchh .search input::placeholder {
+    color: rgba(255, 255, 255, 0.375);
+  }
+  #header .bottom_header .nav-bar .searchh .search span {
+    display: grid;
+    place-items: center;
+    width: 40px;
+    height: 40px;
+    background: #A43B00;
+    color: #f9f9f9;
+    border-radius: inherit;
+    font-size: 24px;
+    pointer-events: none;
+  }
+  #header .bottom_header .menu {
+    display: none;
+  }
+  #header .bottom_header .logo {
+    width: 25%;
+    margin-top: 15px;
+  }
+}
+#carlist {
+  width: 100%;
+}
+#carlist .car_filter {
+  padding-top: 20px;
+}
+#carlist .car_filter .marks {
+  margin-bottom: 40px;
+  padding-top: 5px;
+  padding-bottom: 50px;
+  background-color: #fff;
+}
+#carlist .car_filter .marks .mod {
+  padding: 46px 32px 35px;
+  border-bottom: 1px solid #eee;
+}
+#carlist .car_filter .marks .mod .title {
+  position: relative;
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-family: Raleway;
+  font-size: 15px;
+  font-weight: 700;
+  color: #222;
+  text-transform: uppercase;
+}
+#carlist .car_filter .marks .mod .title ::before {
+  position: absolute;
+  top: 0px;
+  left: -32px;
+  width: 4px;
+  height: 25px;
+  background-color: #999;
+  content: "";
+}
+#carlist .car_filter .marks .mod .content {
+  margin-top: 35px;
+  margin-bottom: 8px;
+}
+#carlist .car_filter .marks .mod .content ul li :hover {
+  color: #dc2d13;
+}
+#carlist .car_filter .marks .mod .content ul li a {
+  display: block;
+  margin-bottom: 12px;
+  margin-left: 8px;
+  font-weight: 500;
+  color: #555;
+  transition: all 0.3s;
+  text-decoration: none;
+}
+#carlist .car_filter .marks .mod .content .wiew {
+  display: block;
+  margin-top: 27px;
+  margin-left: 9px;
+  font-size: 11px;
+  font-weight: 500;
+  text-decoration: none;
+  color: #dc2d13;
+}
+#carlist .wehicle_type {
+  background-color: #fff;
+}
+#carlist .wehicle_type .inn {
+  padding: 26px 32px 35px;
+  border-bottom: 1px solid #eee;
+}
+#carlist .wehicle_type .inn .title {
+  position: relative;
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-family: Raleway;
+  font-size: 15px;
+  font-weight: 700;
+  color: #222;
+  text-transform: uppercase;
+}
+#carlist .wehicle_type .inn .title ::before {
+  position: absolute;
+  top: 0px;
+  left: -32px;
+  width: 4px;
+  height: 25px;
+  background-color: #999;
+  content: "";
+}
+#carlist .wehicle_type .inn .content {
+  margin-top: 35px;
+  margin-bottom: 8px;
+}
+#carlist .wehicle_type .inn .content input {
+  display: none;
+}
+#carlist .wehicle_type .inn .content .current {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  padding: 11px 36px 11px 24px;
+  overflow-wrap: normal;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  background-color: #f5f5f5;
+  font-size: 12px;
+  color: #999999;
+}
+#carlist .wehicle_type .inn .content .current ::before {
+  position: absolute;
+  top: 0;
+  left: 10px;
+  bottom: 0;
+  margin: auto;
+  display: block;
+  width: 16px;
+  height: 16px;
+  background-repeat: no-repeat;
+  content: "";
+}
+#carlist .wehicle_type .inn .content .current ::after {
+  position: absolute;
+  top: 0;
+  right: 18px;
+  bottom: 1px;
+  margin: auto;
+  width: 0;
+  height: 0;
+  border-top: 5px solid #555;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  content: "";
+}
+#carlist .wehicle_type .inn .content .opinion {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 2000;
+  margin-top: 1px;
+  display: none;
+  max-height: 194px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding-left: 0;
+  background: #fff;
+  box-shadow: 1px 1px 4px 1px #eee;
+}
+#carlist .wehicle_type .inn .content .opinion :active {
+  display: block;
+}
+#carlist .wehicle_type .inn .content .opinion :hover {
+  display: block;
+  overflow: visible;
+}
+#carlist .wehicle_type .inn .content .opinion li {
+  text-decoration: underline;
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 1px;
+  padding: 8px 16px 8px 16px;
+  display: block;
+  height: 38px;
+  font-size: 13px;
+  line-height: 22px;
+  color: #222;
+  box-shadow: 0 1px 0 #ccc;
+  overflow-wrap: normal;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  -webkit-transition: 0.125s ease-out;
+  -o-transition: 0.125s ease-out;
+  transition: 0.125s ease-out;
+}
+#carlist .wehicle_type .inn .content .opinion li ::before {
+  position: absolute;
+  top: 0;
+  left: 10px;
+  bottom: 0;
+  margin: auto;
+  display: block;
+  width: 16px;
+  height: 16px;
+  background-repeat: no-repeat;
+  content: "";
+}
+#carlist .carsales .car {
+  margin-bottom: 25px;
+  padding: 24px 21px 10px;
+  background-color: #fff;
+}
+#carlist .carsales .car .carcontent h2 {
+  margin-top: 12px;
+  margin-bottom: 19px;
+  margin-left: -5px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #222;
+  text-transform: uppercase;
+}
+#carlist .carsales .car .carcontent p {
+  margin-top: -5px;
+  color: #777;
+  font-size: 13px;
+  margin: 0 0 25px;
+  font-weight: 300;
+}
+#carlist .carsales .car .carcontent .cardlist {
+  position: relative;
+}
+#carlist .carsales .car .carcontent .cardlist ul li {
+  width: 100%;
+  margin-bottom: 5px;
+  padding-right: 30px;
+  font-size: 11px;
+  color: #191515;
+}
+#carlist .carsales .car .carcontent .cardlist ul li .card-list__info {
+  padding-right: 13px;
+  font-weight: 700;
+  color: #555;
+}
+#carlist .carsales .car .carcontent .cardlist .carprice {
+  display: inline-block;
+  position: absolute;
+  content: "";
+  top: 20%;
+  left: 81%;
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: -20px;
+  color: #555;
+  line-height: 18px;
+}
+#carlist .carsales .car .carcontent .cardlist .carprice span {
+  color: #dc2d13;
+  display: block;
+  margin-top: 7px;
+  font-size: 24px;
+}
+#carlist .pagionation {
+  display: inline-block;
+  padding-left: 0;
+  margin: 11px 0 15;
+}
+#carlist .pagionation ul li a {
+  position: relative;
+  float: left;
+  padding: 8px 12px;
+  line-height: 1.42857143;
+  text-decoration: none;
+  background-color: #ffffff;
+  font-size: 12px;
+  font-weight: 500;
+  box-shadow: 0 3px 0 0 #ccc;
+  margin-right: 6px;
+  color: #777;
+  transition: 0.5s ease-in-out;
+}
+#carlist .pagionation ul li a:hover {
+  box-shadow: 0 3px 0 0 #dc2d13;
+  z-index: 2;
+  color: #ffffff;
+  background-color: #222;
+}
+#carlist .pagionation ul li .activeelement {
+  box-shadow: 0 3px 0 0 #dc2d13;
+  z-index: 2;
+  color: #ffffff;
+  background-color: #222;
+}
+
+@media (min-width: 768px) {
+  #carlist {
+    width: 100%;
+    background-color: #f5f5f5;
+  }
+  #carlist .type {
+    display: flex;
+    overflow: hidden;
+  }
+  #carlist .type .car_filter {
+    padding-top: 20px;
+  }
+  #carlist .type .car_filter .marks {
+    margin-bottom: 40px;
+    padding-top: 5px;
+    padding-bottom: 50px;
+    background-color: #fff;
+  }
+  #carlist .type .car_filter .marks .mod {
+    padding: 46px 32px 35px;
+    border-bottom: 1px solid #eee;
+  }
+  #carlist .type .car_filter .marks .mod .title {
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 12px;
+    font-family: Raleway;
+    font-size: 15px;
+    font-weight: 700;
+    color: #222;
+    text-transform: uppercase;
+  }
+  #carlist .type .car_filter .marks .mod .title ::before {
+    position: absolute;
+    top: 0px;
+    left: -32px;
+    width: 4px;
+    height: 25px;
+    background-color: #999;
+    content: "";
+  }
+  #carlist .type .car_filter .marks .mod .content {
+    margin-top: 35px;
+    margin-bottom: 8px;
+  }
+  #carlist .type .car_filter .marks .mod .content ul li :hover {
+    color: #dc2d13;
+  }
+  #carlist .type .car_filter .marks .mod .content ul li a {
+    display: block;
+    margin-bottom: 12px;
+    margin-left: 8px;
+    font-weight: 500;
+    color: #555;
+    transition: all 0.3s;
+    text-decoration: none;
+  }
+  #carlist .type .car_filter .marks .mod .content .wiew {
+    display: block;
+    margin-top: 27px;
+    margin-left: 9px;
+    font-size: 11px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #dc2d13;
+  }
+  #carlist .type .wehicle_type {
+    margin-bottom: 40px;
+    padding-top: 5px;
+    padding-bottom: 50px;
+    background-color: #fff;
+  }
+  #carlist .type .wehicle_type .inn {
+    padding: 46px 32px 35px;
+    border-bottom: 1px solid #eee;
+  }
+  #carlist .type .wehicle_type .inn .title {
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 12px;
+    font-family: Raleway;
+    font-size: 15px;
+    font-weight: 700;
+    color: #222;
+    text-transform: uppercase;
+  }
+  #carlist .type .wehicle_type .inn .title ::before {
+    position: absolute;
+    top: 0px;
+    left: -32px;
+    width: 4px;
+    height: 25px;
+    background-color: #999;
+    content: "";
+  }
+  #carlist .type .wehicle_type .inn .content {
+    margin-top: 35px;
+    margin-bottom: 8px;
+  }
+  #carlist .type .wehicle_type .inn .content input {
+    display: none;
+  }
+  #carlist .type .wehicle_type .inn .content .current {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    padding: 11px 36px 11px 24px;
+    overflow-wrap: normal;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    background-color: #f5f5f5;
+    font-size: 12px;
+    color: #999999;
+  }
+  #carlist .type .wehicle_type .inn .content .current ::before {
+    position: absolute;
+    top: 0;
+    left: 10px;
+    bottom: 0;
+    margin: auto;
+    display: block;
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+    content: "";
+  }
+  #carlist .type .wehicle_type .inn .content .current ::after {
+    position: absolute;
+    top: 0;
+    right: 18px;
+    bottom: 1px;
+    margin: auto;
+    width: 0;
+    height: 0;
+    border-top: 5px solid #555;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    content: "";
+  }
+  #carlist .type .wehicle_type .inn .content .opinion {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 2000;
+    margin-top: 1px;
+    display: none;
+    max-height: 194px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding-left: 0;
+    background: #fff;
+    box-shadow: 1px 1px 4px 1px #eee;
+  }
+  #carlist .type .wehicle_type .inn .content .opinion :active {
+    display: block;
+  }
+  #carlist .type .wehicle_type .inn .content .opinion :hover {
+    display: block;
+    overflow: visible;
+  }
+  #carlist .type .wehicle_type .inn .content .opinion li {
+    text-decoration: underline;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 1px;
+    padding: 8px 16px 8px 16px;
+    display: block;
+    height: 38px;
+    font-size: 13px;
+    line-height: 22px;
+    color: #222;
+    box-shadow: 0 1px 0 #ccc;
+    overflow-wrap: normal;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    -webkit-transition: 0.125s ease-out;
+    -o-transition: 0.125s ease-out;
+    transition: 0.125s ease-out;
+  }
+  #carlist .type .wehicle_type .inn .content .opinion li ::before {
+    position: absolute;
+    top: 0;
+    left: 10px;
+    bottom: 0;
+    margin: auto;
+    display: block;
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+    content: "";
+  }
+  #carlist .carsales .car {
+    margin-bottom: 25px;
+    padding: 24px 21px 10px;
+    background-color: #fff;
+  }
+  #carlist .carsales .car .carcontent h2 {
+    margin-top: 12px;
+    margin-bottom: 19px;
+    margin-left: -5px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #222;
+    text-transform: uppercase;
+  }
+  #carlist .carsales .car .carcontent p {
+    margin-top: -5px;
+    color: #777;
+    font-size: 13px;
+    margin: 0 0 25px;
+    font-weight: 300;
+  }
+  #carlist .carsales .car .carcontent .cardlist {
+    position: relative;
+  }
+  #carlist .carsales .car .carcontent .cardlist ul li {
+    width: 100%;
+    margin-bottom: 5px;
+    padding-right: 30px;
+    font-size: 11px;
+    color: #191515;
+  }
+  #carlist .carsales .car .carcontent .cardlist ul li .card-list__info {
+    padding-right: 13px;
+    font-weight: 700;
+    color: #555;
+  }
+  #carlist .carsales .car .carcontent .cardlist .carprice {
+    display: inline-block;
+    position: absolute;
+    content: "";
+    top: 20%;
+    left: 100%;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: -20px;
+    color: #555;
+    line-height: 18px;
+  }
+  #carlist .carsales .car .carcontent .cardlist .carprice span {
+    color: #dc2d13;
+    display: block;
+    margin-top: 7px;
+    font-size: 24px;
+  }
+  #carlist .pagionation {
+    display: inline-block;
+    padding-left: 0;
+    margin: 11px 0 15;
+  }
+  #carlist .pagionation ul li a {
+    position: relative;
+    float: left;
+    padding: 8px 12px;
+    line-height: 1.42857143;
+    text-decoration: none;
+    background-color: #ffffff;
+    font-size: 12px;
+    font-weight: 500;
+    box-shadow: 0 3px 0 0 #ccc;
+    margin-right: 6px;
+    color: #777;
+    transition: 0.5s ease-in-out;
+  }
+  #carlist .pagionation ul li a:hover {
+    box-shadow: 0 3px 0 0 #dc2d13;
+    z-index: 2;
+    color: #ffffff;
+    background-color: #222;
+  }
+  #carlist .pagionation ul li .activeelement {
+    box-shadow: 0 3px 0 0 #dc2d13;
+    z-index: 2;
+    color: #ffffff;
+    background-color: #222;
+  }
+}
+html {
+  scroll-behavior: smooth;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,251 @@
+#team {
+    width: 100%;
+    overflow: hidden;
+    margin-top: 30px;
+
+    .headtext {
+        h2 {
+            font-size: 24px;
+            font-weight: 700;
+            color: #061020;
+        }
+
+        span {
+            font-size: 11px;
+            font-weight: 500;
+            text-transform: uppercase;
+            fill: #908dab;
+            color: #908dab;
+
+        }
+    }
+
+    .first {
+        .imagebox {
+            position: relative;
+
+
+            img {
+                border-radius: 50%;
+                width: 220px !important;
+                max-height: 220px;
+            }
+
+
+        }
+
+        .teamcontent {
+
+            transition: color 200ms cubic-bezier(.78, .14, .2, .86), background-color 200ms cubic-bezier(.78, .14, .2, .86);
+
+            h4 {
+                font-size: 24px;
+                font-weight: 900;
+                line-height: 30px;
+                color: #061020;
+
+                &:hover {
+                    color: #01b7cd;
+                }
+            }
+
+            h6 {
+                font-size: 11px;
+                font-weight: 500;
+                text-transform: uppercase;
+                letter-spacing: 0;
+                color: #01b7cc;
+
+            }
+            p{
+                line-height: 24px;
+                margin-top: 10px;
+                margin-bottom: 17px;
+                font-size: 14px;
+            }
+        }
+        .team-socials{
+            margin-top: 10px;
+            i{
+                padding: 0 12px;
+                transition: color 200ms cubic-bezier(.78,.14,.2,.86),background-color 200ms cubic-bezier(.78,.14,.2,.86);    
+                color: #6d727c;
+                &:hover{
+                    color: #01b7cc;
+                }
+                
+            }
+        }
+    }
+    .second {
+        .imagebox {
+            position: relative;
+
+
+            img {
+                border-radius: 50%;
+                width: 220px !important;
+                max-height: 220px;
+            }
+
+
+        }
+
+        .teamcontent {
+
+            transition: color 200ms cubic-bezier(.78, .14, .2, .86), background-color 200ms cubic-bezier(.78, .14, .2, .86);
+
+            h4 {
+                font-size: 24px;
+                font-weight: 900;
+                line-height: 30px;
+                color: #061020;
+
+                &:hover {
+                    color: #01b7cd;
+                }
+            }
+
+            h6 {
+                font-size: 11px;
+                font-weight: 500;
+                text-transform: uppercase;
+                letter-spacing: 0;
+                color: #01b7cc;
+
+            }
+            p{
+                line-height: 24px;
+                margin-top: 10px;
+                margin-bottom: 17px;
+                font-size: 14px;
+            }
+        }
+        .team-socials{
+            margin-top: 10px;
+            i{
+                padding: 0 12px;
+                transition: color 200ms cubic-bezier(.78,.14,.2,.86),background-color 200ms cubic-bezier(.78,.14,.2,.86);    
+                color: #6d727c;
+                &:hover{
+                    color: #01b7cc;
+                }
+                
+            }
+        }
+    }
+    .three {
+        .imagebox {
+            position: relative;
+
+
+            img {
+                border-radius: 50%;
+                width: 220px !important;
+                max-height: 220px;
+            }
+
+
+        }
+
+        .teamcontent {
+
+            transition: color 200ms cubic-bezier(.78, .14, .2, .86), background-color 200ms cubic-bezier(.78, .14, .2, .86);
+
+            h4 {
+                font-size: 24px;
+                font-weight: 900;
+                line-height: 30px;
+                color: #061020;
+
+                &:hover {
+                    color: #01b7cd;
+                }
+            }
+
+            h6 {
+                font-size: 11px;
+                font-weight: 500;
+                text-transform: uppercase;
+                letter-spacing: 0;
+                color: #01b7cc;
+
+            }
+            p{
+                line-height: 24px;
+                margin-top: 10px;
+                margin-bottom: 17px;
+                font-size: 14px;
+            }
+        }
+        .team-socials{
+            margin-top: 10px;
+            i{
+                padding: 0 12px;
+                transition: color 200ms cubic-bezier(.78,.14,.2,.86),background-color 200ms cubic-bezier(.78,.14,.2,.86);    
+                color: #6d727c;
+                &:hover{
+                    color: #01b7cc;
+                }
+                
+            }
+        }
+    }
+    .last {
+        .imagebox {
+            position: relative;
+
+
+            img {
+                border-radius: 50%;
+                width: 220px !important;
+                max-height: 220px;
+            }
+
+
+        }
+
+        .teamcontent {
+
+            transition: color 200ms cubic-bezier(.78, .14, .2, .86), background-color 200ms cubic-bezier(.78, .14, .2, .86);
+
+            h4 {
+                font-size: 24px;
+                font-weight: 900;
+                line-height: 30px;
+                color: #061020;
+
+                &:hover {
+                    color: #01b7cd;
+                }
+            }
+
+            h6 {
+                font-size: 11px;
+                font-weight: 500;
+                text-transform: uppercase;
+                letter-spacing: 0;
+                color: #01b7cc;
+
+            }
+            p{
+                line-height: 24px;
+                margin-top: 10px;
+                margin-bottom: 17px;
+                font-size: 14px;
+            }
+        }
+        .team-socials{
+            margin-top: 10px;
+            i{
+                padding: 0 12px;
+                transition: color 200ms cubic-bezier(.78,.14,.2,.86),background-color 200ms cubic-bezier(.78,.14,.2,.86);    
+                color: #6d727c;
+                &:hover{
+                    color: #01b7cc;
+                }
+                
+            }
+        }
+    }
+}
